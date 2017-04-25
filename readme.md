@@ -1,0 +1,1 @@
+As a new puppy owner, I wanted a way to easily track my dog's bathroom habits to avoid accidents in the house. This app allows you to input what your dog is doing, and takes a timestamp when he is doing it. You can also mark accidents with the form. This information is stored in a database and used to generate metrics to provide an ideal schedule to prevent accidents.
