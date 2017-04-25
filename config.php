@@ -3,8 +3,8 @@
 $config = array(
 	'host'     => '127.0.0.1',
 	'dbname'   => 'dogtrack',
-	'user'     => 'root',
-	'password' => 'root'
+	'user'     => '',
+	'password' => ''
 	);
 
 $pdo = new PDO("mysql:host=$config[host];dbname=$config[dbname]", $config['user'], $config['password']);

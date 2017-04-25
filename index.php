@@ -2,7 +2,7 @@
 require_once 'config.php';
 require_once 'class.tracker.php';
 
-$start = isset($_GET['page']) ? ($_GET['page'] * 5) - 5 : 0;
+//$start = isset($_GET['page']) ? ($_GET['page'] * 5) - 5 : 0;
 
 $tracker = new Tracker($pdo, $start);
 $records = $tracker->currentlog;
